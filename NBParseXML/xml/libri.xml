@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<libri
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='../src/nbvalidatexml/libri.xsd'>
+    <libro genere="fantascienza">
+        <autore>Stefano Benni</autore>
+        <titolo>Terra!</titolo>
+        <prezzo>10.50</prezzo>
+    </libro>
+    <libro genere="romanzo">
+        <autore>Mark Twain</autore>
+        <titolo>Le avventure di ....</titolo>
+        <prezzo>9.9</prezzo>
+    </libro>
+    <libro genere="romanzo">
+        <autore>Herman Melville</autore>
+        <titolo>Moby Dick</titolo>
+        <prezzo>15</prezzo>
+    </libro>
+
+</libri>

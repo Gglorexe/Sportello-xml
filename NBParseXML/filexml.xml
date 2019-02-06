@@ -1,0 +1,30 @@
+<html>
+<body>
+<nav>
+<div class="nav-collapse collapse">
+<div>
+	<ul class="nav">
+	<li><a title="INDICE" href="https://agora.ismonnet.it/agora/course">INDICE</a></li>
+	<li>
+	<a title="DIDATTICA" href="https://agora.ismonnet.it/agora/course/index.php?categoryid=64">DIDATTICA</a></li>
+	<li>
+	<a title="BIBLIOTECA" href="https://agora.ismonnet.it/agora/course/index.php?categoryid=6">BIBLIOTECA</a></li>
+	<li>
+	<a title="PROGETTI" href="https://agora.ismonnet.it/agora/course/index.php?categoryid=25">PROGETTI</a></li>
+	<li>
+	<a title="DOCENTI" href="https://agora.ismonnet.it/agora/course/index.php?categoryid=10">DOCENTI</a></li>
+	<li>
+	<a title="ESCI" href="https://agora.ismonnet.it/agora/login/logout.php">ESCI</a></li>
+	<li class="dropdown langmenu"><a href="" class="dropdown-toggle" data-toggle="dropdown" title="Lingua">Italiano ‎(it)‎<b class="caret"></b></a></li>
+		<ul class="dropdown-menu">
+		<li><a title="English ‎(en)‎" href="https://agora.ismonnet.it/agora/?lang=en">English ‎(en)‎</a></li>
+		<li><a title="Italiano ‎(it)‎" href="https://agora.ismonnet.it/agora/?lang=it">Italiano ‎(it)‎</a></li>
+		</ul></ul>                
+		<ul class="nav pull-right">
+			<li></li>
+			</ul>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
