@@ -22,7 +22,7 @@ import java.util.logging.Logger;
 public class WriteCsv {
     public static void SalvaSuFile(String s) throws IOException {
         try (
-                BufferedWriter writer = new BufferedWriter(new FileWriter("login.csv", true))) {
+                BufferedWriter writer = new BufferedWriter(new FileWriter("circolariSportello.csv", true))) {
             writer.write(s);
         }
     }
@@ -80,7 +80,7 @@ public class WriteCsv {
     }
     
     public static void SovrascriviFile(String s) throws IOException {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("login.csv"))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("circolariSportello.csv"))) {
             writer.write(s);
         }
     }

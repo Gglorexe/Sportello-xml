@@ -28,8 +28,8 @@ public class StrutturaProf {
     
     public String toString(){
         String s = "";
-        s = nome + giorno[0].toString() + "-" + ora[0].toString() + ","
-                + giorno[1].toString() + ora[0].toString();
+        s = nome[0] + "-" + nome[1] + "," + giorno[0] + "-" + ora[0] + ","
+                + giorno[1] + ora[0];
         return s;
     }
     public String[] getNome() {

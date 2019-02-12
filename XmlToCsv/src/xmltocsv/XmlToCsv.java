@@ -47,10 +47,11 @@ public class XmlToCsv {
             }
         }
         
+        WriteCsv write = new WriteCsv();
         StrutturaProf professore = new StrutturaProf();
         for (int i = count+1; i < lung; i +=2) {
             NodeList tagTd = tagTd = nList.item(i).getChildNodes();
-            if(tagTd.item(1).getTextContent().equals("N.B. Gli orari degli incontri potrebbero anche essere modificati in accordo con il docente/studente.")){
+            if(tagTd.item(1).getTextContent().contains("N.B.")){
                 break;
             }
             else{
@@ -62,6 +63,9 @@ public class XmlToCsv {
             professore.nome[1] = tagTd.item(1).getTextContent();
             professore.giorno[1] = tagTd.item(2).getTextContent();
             professore.ora[1] = tagTd.item(3).getTextContent();
+            
+            daScrivere = professore.toString() + "\r\n";
+            write.SalvaSuFile(daScrivere);
             }
         }       
         System.out.println("finish");   
