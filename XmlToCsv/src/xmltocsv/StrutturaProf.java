@@ -14,6 +14,7 @@ public class StrutturaProf {
     String[] giorno;
     String[] ora;
     
+    
     public StrutturaProf(){
         nome = new String[2];
         giorno = new String[2];
